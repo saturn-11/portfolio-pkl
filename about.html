@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="img/logo.jpeg">
+  <title>About Me | Satria Mandala</title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Tailwind CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Hero Section -->
+<section 
+  class="relative w-full h-screen bg-cover bg-left"
+  style="background-image: url('img/satria2.jpg'); background-position: 25% 60%;"
+>
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+  <!-- Teks: Perfect Center -->
+  <h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
+             text-white text-4xl md:text-6xl font-semibold tracking-[0.3em] z-10 text-center">
+    MORE ABOUT ME
+  </h1>
+
+  <!-- Scroll Button -->
+  <a href="#bio-page" 
+     class="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white text-2xl animate-bounce z-10"
+  >
+    ↓
+  </a>
+</section>
+
+
+
+  <!-- Foto + Bio -->
+  <section class="max-w-5xl mx-auto py-12 px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center" id="bio-page">
+    <img 
+      src="img/about1.jpg" 
+      alt="Foto Gue" 
+      class="h-96 object-cover rounded-lg shadow-lg block mx-auto"
+      style="width: 460px;" 
+      data-aos="fade-right" 
+      data-aos-duration="1500"
+    >
+    <div>
+      <h2 class="text-2xl font-bold mb-4">Halo! Saya Satria </h2>
+      <p class="text-gray-700 leading-relaxed">
+        Saya adalah siswa SMK Pelita Nusantara jurusan Rekayasa Perangkat Lunak yang memiliki minat besar di bidang pengembangan web.
+        Terampil menggunakan HTML, CSS, dan PHP untuk membangun tampilan dan fungsi website yang sederhana dan responsif. Saya memiliki semangat belajar tinggi,
+        mampu bekerja secara mandiri maupun dalam tim.
+      </p>
+      <div class="flex gap-4 mt-4 text-2xl text-gray-700">
+  <a href="https://www.instagram.com/satrriamdl_/" target="_blank" class="hover:text-pink-500 transition">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.tiktok.com/@satrrimdl_?lang=id-ID" target="_blank" class="hover:text-gray-800 transition">
+    <i class="fab fa-tiktok"></i>
+  </a>
+  <a href="https://github.com/saturn-11" target="_blank" class="hover:text-blue-600 transition">
+    <i class="fab fa-github"></i>
+  </a>
+</div>
+    </div>
+  </section>
+
+  <!-- Pengalaman -->
+  <section class="max-w-5xl mx-auto py-10 px-4">
+    <h1 class="title font-black" data-aos="fade-right" data-aos-duration="1000">Experience</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+        <div alt="OSIS" class="w-full h-40 bg-cover bg-no-repeat"
+        style="background-image: url('img/exp.JPG'); background-position: 25% 67%;">
+
+        </div>
+        <div class="p-6">
+          <h4 class="text-lg font-semibold mb-2">Koordinator Keamanan OSIS</h4>
+          <p class="text-sm text-gray-600">
+            Menjabat sebagai Koordinator Seksi Bidang 2 (Keamanan) OSIS tahun 2023–2024, bertanggung jawab menjaga ketertiban acara sekolah dan internal organisasi.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <!-- <div class="bg-white rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+        <img src="img/magang.jpg" alt="Web development" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h4 class="text-lg font-semibold mb-2">E-Commerce Digitalinaja</h4>
+          <p class="text-sm text-gray-600">
+            Sebuah website e-commerce berbasis jasa bernama DigitalinAja, yang menyediakan berbagai layanan digital seperti pembuatan website, desain grafis, fotografi, videografi, dan lain-lain
+          </p>
+        </div>
+      </div> -->
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+        <img src="img/ziaul.png" alt="Freelance" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h4 class="text-lg font-semibold mb-2">Freelance Web Portofolio</h4>
+          <p class="text-sm text-gray-600">
+            Mengerjakan beberapa proyek website untuk teman sekolah dan kenalan, mulai dari desain hingga deploy sederhana.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+        <img src="img/exp2.jpg" alt="Freelance" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h4 class="text-lg font-semibold mb-2">Graduate</h4>
+          <p class="text-sm text-gray-600">
+            Lulus dari SMP ZAD IQBS dengan nilai yang cukup memuaskan, dan berhasil menyetorkan hafalan Al-qur'an sebanyak 9 juz.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prestasi -->
+  <section class="max-w-5xl mx-auto py-10 px-4">
+    <h1 class="title font-black" data-aos="fade-right" data-aos-duration="1000">Prestasi</h1>
+    <ul class="space-y-4 list-disc pl-5">
+      <li data-aos="fade-right" data-aos-duration="900">1st Runner Up Lomba Futsal Pesta pelajar</li>
+      <li data-aos="fade-right" data-aos-duration="1000">The Winner of basketball competitions Grand Competition 3</li>
+      <li data-aos="fade-right" data-aos-duration="1100">1st Runner Up of Swimmming competitions Grand Competition 3</li>
+      <li data-aos="fade-right" data-aos-duration="1200">Peraih mendali emas olimpiade International Sains Competition Ilmu Pengetahuan Sosial</li>
+      <li data-aos="fade-right" data-aos-duration="1300">Peraih mendali perak olimpiade International Sains Competition Bahasa Indonesia</li>
+      <li data-aos="fade-right" data-aos-duration="1400">Peraih mendali perungu olimpiade International Sains Competition Bahasa Inggris</li>
+    </ul>
+  </section>
+
+  <!-- Skill -->
+  <section class="max-w-5xl mx-auto py-10 px-4">
+    <h1 class="title font-black" data-aos="fade-right" data-aos-duration="1000">Skill</h1>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4" data-aos="fade-up" data-aos-duration="1200">
+      <span class="bg-white p-3 rounded shadow text-center">HTML & CSS</span>
+      <span class="bg-white p-3 rounded shadow text-center">Javascript</span>
+      <span class="bg-white p-3 rounded shadow text-center">PHP</span>
+      <span class="bg-white p-3 rounded shadow text-center">Tailwind CSS</span>
+      <span class="bg-white p-3 rounded shadow text-center">UI/UX Design</span>
+      <span class="bg-white p-3 rounded shadow text-center">Capcut</span>
+      <span class="bg-white p-3 rounded shadow text-center">Canva</span>
+      <span class="bg-white p-3 rounded shadow text-center">Framer</span>
+      <span class="bg-white p-3 rounded shadow text-center">Ms.Office</span>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <!-- <section class="max-w-5xl mx-auto py-10 px-4">
+    <h1 class="title font-black">Galeri</h1>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <img src="https://via.placeholder.com/300x200" alt="Foto 1" class="rounded-lg shadow-md object-cover">
+      <img src="https://via.placeholder.com/300x200" alt="Foto 2" class="rounded-lg shadow-md object-cover">
+      <img src="https://via.placeholder.com/300x200" alt="Foto 3" class="rounded-lg shadow-md object-cover">
+    </div>
+  </section> -->
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-600 text-sm">
+    &copy; 2025 Satria Mandala. All rights reserved.
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+</html>
