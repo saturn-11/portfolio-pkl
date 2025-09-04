@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="IMG/images-removebg-preview.png">
+    <title>Kebutuhan Senja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#home" class="navbar-logo">Kebutuhan<span>Senja.</span></a>
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Signature Coffea</a>
+            <a href="#contact">Resevartion</a>
+        </div>
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Hangatnya Kopi Indahnya<span>Senja.</span></h1>
+            <p>Nikmati waktu yang berjalan perlahan,<br> Dengan secangkir kopi di Bawah Langit Senja</p>
+            <a href="#menu" class="cta">Lihat menu</a>
+        </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Us -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="IMG/bg-About.jpg" alt="Tentang Kebutuhan Senja">
+            </div>
+            <div class="about-text">
+                <h2><span>Tentang</span> Kami</h2>
+                <p>Kenapa Di Harus Kebutuhan Senja?<br>
+
+                    Di tengah hiruk-pikuk kehidupan, Kebutuhan Senja hadir bukan sekadar menyajikan kopi, tapi menciptakan pengalaman. Dengan suasana hangat, aroma kopi yang menenangkan, dan layanan ramah, setiap kunjungan menjadi momen berharga.
+
+                    Kami menggunakan biji kopi pilihan yang diolah dengan penuh ketelitian, menghasilkan cita rasa autentik. Selain kopi, kami juga menyediakan beragam minuman dan camilan berkualitas.
+                    
+                    Dengan desain interior yang nyaman dan estetis, Kebutuhan Senja adalah tempat ideal untuk bekerja, berkumpul, atau sekadar menikmati waktu sendiri. Karena di sini, kopi bukan sekadar minuman, tetapi bagian dari perjalanan hidup Anda. 🍂☕</p>
+            </div>
+        </div>
+    </section>
+    <!-- About Us End -->
+
+    <!-- Menu -->
+   <!-- Menu -->
+<section class="menu" id="menu">
+    <h2>Signature Coffea <span>KenanganSenja</span></h2>
+    <div class="menu-list">
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>Kopi hitam pekat dengan cita rasa kuat.</p>
+        </div>
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Perpaduan espresso, susu, dan busa susu.</p>
+        </div>
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Kopi susu dengan rasa yang lembut.</p>
+        </div>
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Mocha">
+            <h3>Mocha</h3>
+            <p>Espresso dengan cokelat dan susu.</p>
+        </div>
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Affogato">
+            <h3>Affogato</h3>
+            <p>Espresso dengan es krim vanila.</p>
+        </div>
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Macchiato">
+            <h3>Macchiato</h3>
+            <p>Espresso dengan sedikit susu untuk rasa lebih seimbang.</p>
+        </div>
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Americano">
+            <h3>Americano</h3>
+            <p>Rasa yang lebih ringan dibandingkan espresso murni.</p>
+        </div>
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Affogato">
+            <h3>Flat White</h3>
+            <p> Espresso dengan susu kukus, lebih creamy dari latte.</p>
+        </div>
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Affogato">
+            <h3>Irish Coffee</h3>
+            <p> Kopi dengan whiskey, gula, dan krim di atasnya.</p>
+        </div>
+        <div class="menu-item">
+            <img src="IMG/Kopi-bg-menu.jpg" alt="Affogato">
+            <h3>Ristretto </h3>
+            <p>Espresso lebih pekat dengan sedikit air, rasa lebih kuat.</p>
+        </div>
+    </div>
+</section>
+<!-- Menu End -->
+
+    <!-- Menu End -->
+
+    <!-- Contact -->
+    <div class="contact-container" id="contact">
+        <form action="reservasi.php" method="POST" class="contact-form">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="nama" placeholder="Masukkan nama Anda" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+    
+            <label for="date">Tanggal Reservasi</label>
+            <input type="date" id="date" name="tanggal" required>
+    
+            <label for="message">Pesan Tambahan</label>
+            <textarea id="message" name="catatan" rows="4" placeholder="Tambahkan pesan..."></textarea>
+    
+            <button type="submit" name="submit">Submit</button>
+        </form>
+    </div>
+    
+    
+    <!-- Contact End -->
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h2>Kebutuhan<span>Senja.</span></h2>
+        </div>
+        <div class="footer-socials">
+            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+        </div>
+        <p>&copy; 2025 Kebutuhan Senja. All Rights Reserved.</p>
+    </div>
+</footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.getElementById('hamburger-menu');
+        const navMenu = document.querySelector('.navbar-nav');
+
+        hamburger.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+        });
+
+        document.addEventListener('click', function(event) {
+            if (!hamburger.contains(event.target) && !navMenu.contains(event.target)) {
+                navMenu.classList.remove('active');
+            }
+        });
+    });
+</script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
